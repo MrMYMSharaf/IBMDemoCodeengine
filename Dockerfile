@@ -17,4 +17,4 @@ COPY .streamlit/config.toml ~/.streamlit/config.toml
 # Expose the default Streamlit port
 EXPOSE 8501
 
-CMD [ "streamlit","run","src/app.py" , "--server.port=8051", "--server.address=0.0.0.0"]
+CMD [ "streamlit","run","src/app.py"]
